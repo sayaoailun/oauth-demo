@@ -1,0 +1,12 @@
+security:
+  oauth2:
+    client:
+      clientId: first-client
+      clientSecret: pass
+      accessTokenUri: http://10.129.209.43:8081/oauth/token
+      userAuthorizationUri: http://10.129.209.43:8081/oauth/authorize
+      authorizationScheme: header
+resource:
+  url: http://10.129.209.43:8081/rest/whoami
+server:
+  port: 8082
